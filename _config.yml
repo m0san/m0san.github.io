@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Mohammad Boustta"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Research Assistant at Oracle | Computer Science Student at 1337FIL"
   location         : "Morocco"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "m0san"
+  github           : "https://github.com/m0san"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/mohammad-boustta-68b2a4191/"
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : https://stackoverflow.com/users/11226041/mo-boustta
   steam            :
   tumblr           :
-  twitter          : "boustta_mo"
+  twitter          : "https://twitter.com/boustta_mo"
   vine             :
   weibo            :
   xing             :
