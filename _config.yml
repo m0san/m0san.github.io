@@ -175,7 +175,7 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  blog:
     output: false
     permalink: /:collection/:path/
   publications:
@@ -184,7 +184,7 @@ collections:
   portfolio:
     output: false
     permalink: /:collection/:path/
-  talks:
+  CV:
     output: false
     permalink: /:collection/:path/
 
@@ -202,17 +202,10 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+  # _blog
   - scope:
       path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
+      type: blog
     values:
       layout: single
       author_profile: true
@@ -236,12 +229,12 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _CV
   - scope:
       path: ""
-      type: talks
+      type: CV
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
 
