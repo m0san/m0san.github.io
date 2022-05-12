@@ -169,7 +169,7 @@ encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
-# Conversion
+# Conveion
 markdown: kramdown
 highlighter: rouge
 lsi: false
@@ -191,17 +191,17 @@ kramdown:
 
 # Collections
 collections:
-  blog:
-    output: false
+  teaching:
+    output: true
     permalink: /:collection/:path/
   publications:
-    output: false
+    output: true
     permalink: /:collection/:path/
   portfolio:
-    output: false
+    output: true
     permalink: /:collection/:path/
-  CV:
-    output: false
+  talks:
+    output: true
     permalink: /:collection/:path/
 
 
@@ -218,10 +218,17 @@ defaults:
       comments: true
       share: true
       related: true
-  # _blog
+  # _pages
   - scope:
       path: ""
-      type: blog
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
     values:
       layout: single
       author_profile: true
@@ -245,12 +252,12 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _CV
+  # _talks
   - scope:
       path: ""
-      type: CV
+      type: talks
     values:
-      layout: single
+      layout: talk
       author_profile: true
       share: true
 
@@ -264,7 +271,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Africa/Casablanca # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
